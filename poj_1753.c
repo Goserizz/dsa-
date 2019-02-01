@@ -70,9 +70,7 @@ int main(){
         }
 
         prev = now;
-        now = 1;
-        for (j = 1; j < i + 3; j ++)
-            now = now * (17 - j) / j;
+        now = now * (15 - i) / (i + 2);
 
         free (flips);
         flips = temp;
