@@ -34,7 +34,9 @@ int main() {
     printf ("%d\n", ans);
 
     for (i = 0; i < 4; i ++)
-        for (j = 0; j < 4; j ++)
+        for (j = 0; j < 4; j++)
             if (change[i][j] % 2 == 1)
-                printf ("%d %d\n", i + 1, j + 1);
+                printf("%d %d\n", i + 1, j + 1);
+
+    return 0;
 }
