@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
 
 unsigned short change[16] = {
         19, 39, 78, 140,
@@ -19,7 +20,9 @@ struct flip{
 };
 
 int main(){
-    FILE *fp = fopen ("/Users/lrf/Documents/answer.c", "w");
+    time_t start, stop;
+    time (&start);
+    FILE *fp = fopen ("answer.c", "w");
     int prev, now, j, top;
     char c, i, k, found;
     struct flip *flips, *temp;
@@ -113,5 +116,8 @@ int main(){
     fprintf (fp, "\treturn 0;\n");
     fprintf (fp, "}");
     fclose (fp);
+
+    time (&stop);
+    printf ("Done in %ld", stop - start);
     return 0;
 }
