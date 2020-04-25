@@ -116,3 +116,172 @@ int main(){
         printf("%d\n", x_num + y_num - ans);
     }
 }
+
+/*
+-------------test data-------------
+8
+40 10
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**o*******
+**oo******
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+****oo****
+**********
+**********
+**********
+**********
+**********
+*****ooo**
+*****o*o**
+*****ooo**
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+7 9
+ooo**oooo
+**oo*ooo*
+o*oo**o**
+ooooooooo
+*******oo
+o*o*oo*oo
+*******oo
+10 1
+*
+*
+*
+o
+*
+*
+*
+*
+*
+*
+2 1
+o
+o
+40 10
+o*o*o*o*o*
+*o*o*o*o*o
+o*o*o*o*o*
+*o*o*o*o*o
+o*o*o*o*o*
+*o*o*o*o*o
+o*o*o*o*o*
+*o*o*o*o*o
+o*o*o*o*o*
+*o*o*o*o*o
+o*o*o*o*o*
+*o*o*o*o*o
+o*o*o*o*o*
+*o*o*o*o*o
+o*o*o*o*o*
+*o*o*o*o*o
+o*o*o*o*o*
+*o*o*o*o*o
+o*o*o*o*o*
+*ooooooo*o
+o*o***o*o*
+*oo*o*oo*o
+o*o***o*o*
+*o*ooo*o*o
+o*o*o*o*o*
+*o*o*o*o*o
+o*o*o*o*o*
+*o*o*o*o*o
+o*o*o*o*o*
+*o*o*o*o*o
+o*o*o*o*o*
+*o*o*o*o*o
+o*o*o*o*o*
+*o*o*o*o*o
+o*o*o*o*o*
+*o*o*o*o*o
+o*o*o*o*o*
+*o*o*o*o*o
+o*o*o*o*o*
+*o*o*o*o*o
+37 10
+oooooooooo
+o**ooooooo
+o*oo**oooo
+o*****oooo
+oo**oooooo
+oooooooooo
+o**ooooooo
+o*o**ooooo
+o******ooo
+oooooooooo
+o***oooooo
+o**ooooooo
+oooooo***o
+o*********
+o***ooo**o
+oo*oooo**o
+oo****oo*o
+oooooooooo
+oooooooooo
+oooooooooo
+oooo****oo
+ooo**oo**o
+oooo****oo
+**oooooooo
+oooooooooo
+oooo*ooooo
+oo****oooo
+oooo**oooo
+oooo*ooo*o
+o*****o**o
+o*o******o
+ooooo*oo*o
+o**oo*oo**
+oo****oo*o
+ooo***oooo
+ooo*****oo
+oooooooooo
+9 10
+**********
+*oooooooo*
+*o******o*
+*o*oooo*o*
+*o*oooo*o*
+*o*oooo*o*
+*o******o*
+*oooooooo*
+**********
+2 1
+*
+*
+-----------answer------------
+ 195
+ 17
+ 5
+ 0
+ 193
+ 58
+ 26
+ 1
+*/
